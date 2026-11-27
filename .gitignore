@@ -1,0 +1,22 @@
+# 本机 Python 环境、安装包及下载的第三方 SDK
+/RoboMaster Python SDK/
+/RoboMaster-SDK-master/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# 配网凭据、二维码与运行产物
+.env
+.env.*
+!.env.example
+qrcode*.png
+logs/
+temp/
+*.log
+
+# 编辑器与系统文件
+.idea/
+.vscode/
+Thumbs.db
+Desktop.ini
